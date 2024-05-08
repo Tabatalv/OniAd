@@ -1,0 +1,412 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    background-color: #EBEEF9;
+    justify-content: center;
+}
+
+header nav img{
+    width: 2%;
+}
+.desk-hide{
+    display: none;
+}
+
+header .menu{
+    width: 17%;
+}
+ul{
+    display: flex;
+    align-items: center;
+}
+
+li, #hero p, #hero a, .grid p, .grid h4, .colaboladores p, footer p, footer h5, .icono, .boton-2{
+    font-family: Roboto, sans-serif;
+    font-size: 1rem;
+    color: #393a56;
+}
+.grid h4{
+    font-weight: 300;
+}
+li{
+    display: flex;
+    align-items: center;
+    margin: 0 .7rem;
+
+}
+a{
+    text-decoration: none;
+}
+.sesion{
+    margin-left: 16.5rem;
+}
+
+#hero{
+    background-color: #EBEEF9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10rem;
+}
+
+#hero > div:first-child{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#hero .software{
+    display: flex;
+    flex-direction: column;
+    margin-top: 3rem;
+    margin-right: 5rem;
+}
+
+nav{
+    display: flex;
+}
+
+.div-icono img{
+    width: 25px;
+    margin: 0 .5rem;
+    
+}
+
+.iconito-2{
+    display: none;
+}
+
+h1, .grid h3, .aside h4, h2, .sponsor > div h4{
+    font-family: Ubuntu, sans-serif;
+    font-size: 2.8rem;
+    font-weight: 700;
+    color: #1a1449;
+}
+
+h2{
+    font-size: 1.4rem;
+    font-weight: 700;
+}
+
+h1{
+    margin-bottom: 0;
+}
+
+span, li{
+    color: #4775FF;
+}
+
+#hero > div:first-child img{
+    width: 30%;
+}
+
+
+.grid img{
+    width: 27%;
+    border-radius: 40px;
+    border-bottom-left-radius: 0;
+    opacity: .5;
+    position: absolute;
+    left: 18rem;
+    bottom: 9rem;
+    
+}
+.ms img{
+    bottom: 7rem;
+}
+
+.kam img{
+    bottom: 11rem;
+}
+
+
+#hero .boton, .div-icono, .boton-2{
+    background-color: #4775FF;
+    width: fit-content;
+    color: white;
+    padding: 20px 40px;
+    border-radius: 10px;
+}
+.iconito{
+    display: flex;
+    align-items: center;
+    position: fixed;
+    right: 0;
+    z-index: 1;
+    border-radius: 10px 0 0 10px;
+ }
+ 
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: repeat(3, auto);
+    justify-content: center;
+    align-items: center;
+    gap: 5.5rem;
+    padding-top: 10rem;
+}
+
+.aside{
+    grid-column: 1 / 2;
+}
+
+.ad-ops{
+    grid-row: 2 / 3;
+    grid-column: 2 / 3;
+}
+.kam{
+    grid-row: 1 / 3;
+    grid-column: 3 / 4;
+}
+
+.ms{
+    grid-row: 3 / 4;
+    grid-column: 2 / 3;
+}
+
+.sales{
+    grid-row: 2 / 4;
+    grid-column: 3 / 4;
+}
+
+.aside h3{
+    font-size: 1.9rem ;
+}
+
+.aside h4{
+    font-size: 1.5rem;
+}
+
+.ad-ops h3, .kam h3, .ms h3, .sales h3, .sponsor > div h4{
+    font-size: 1.3rem;
+}
+
+.aside{
+    position: sticky;
+    top: 0;
+}
+
+.card{
+    width: 100%;
+    position: relative;
+    padding-left: 2rem;
+}
+
+.card, .sponsor > div{
+    border-radius: 1.5rem;
+    box-shadow: .3em .3rem 3.2rem rgb(240, 205, 240);
+}
+
+.grid h3, .grid h4{
+    margin: 0;
+}
+
+.ad-ops h3, .kam h3, .ms h3, .sales h3{
+    padding-top: 1rem;
+}
+
+.sales{
+    margin-top: 6rem;
+}
+.card:hover{
+    border: solid 2px #94AFFF;
+    
+}
+
+.card:hover img{
+    opacity: 1;
+}
+
+.colaboladores{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 7rem 0;
+}
+
+.sponsor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+    margin-top: 3rem;
+}
+
+.sponsor > div{
+    display: flex;
+    margin: 1rem 5rem;
+}
+
+.sponsor h4, .sponsor p{
+    padding: 0 2rem;
+}
+.sponsor img{
+    width: 50%;
+    border-radius: 1.5rem 0 0 1.5rem;
+}
+
+footer{
+    background-color: #161F3E;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 4rem;
+}
+.footer{
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.footer img{
+    width: 11rem;
+}
+.redes img{
+    width: 1.5rem;
+    margin: 0 .5rem;
+}
+
+footer p, footer h5, #hero .icono, .redes a{
+    color: white;
+}
+
+.footer > div{
+    margin: 2rem 3rem;
+}
+
+.redes{
+    display: flex;
+    align-items: center;
+    margin-top: 2rem;
+
+}
+
+.redes p{
+    margin: 0 1rem;
+}
+
+@media screen and (min-width: 810px) {
+
+    
+}
+@media (max-width: 800px){
+
+    nav{
+        display: none;
+    }
+    .movil, .desk-hide{
+        display: flex;
+    }
+    
+    .menu{
+        margin-left: 10rem;
+    }
+
+    .logotipo{
+        margin: 1rem 0 0 1rem;
+    }
+    
+    .software{
+        text-align: center;
+    }
+    a{
+        margin: auto;
+    }
+
+    .grid{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0 3rem;
+    }
+
+    .aside{
+        position: static;
+        
+    }
+
+    .grid img{
+        width: 20%;
+    }
+    .aside{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .ms img{
+        bottom: 8rem;
+        left: 18.5rem;
+    }
+
+    .kam img{
+        bottom: 12rem;
+        left: 19rem;
+    }
+
+    .sales{
+        margin: 0;
+    }
+
+    .ad-ops img {
+        left: 19rem;
+    }
+
+    h1{
+        font-size: 1.4rem;
+        line-height: 2rem;
+    }
+
+
+    #hero .software{
+        margin: 0;
+    }
+
+    #hero > div:first-child img {
+        width: 100%;
+        margin-top: 1.5rem;
+    }
+
+    .sponsor{
+        margin-top: 1rem;
+    }
+    .sponsor > div{
+        margin: 1rem;
+    }
+
+    .colaboladores p{
+        padding: 0 1.5rem;
+    }
+    .iconito{
+        display: none;
+    }
+    .iconito-2{
+        display: flex;
+        align-items: center;
+        position: fixed;
+        right: 0;
+        z-index: 1;
+        border-radius: 10px 0 0 10px;
+    }
+    .redes{
+        display: block;
+    }
+    .redes > div{
+        display: flex;
+    }
+
+    .redes p{
+        text-align: center;
+        margin-top: 1rem;
+    }
+}
